@@ -1,3 +1,9 @@
+function apagar(id) {
+    document.getElementById(id).value = ""
+    console.log("campo " + id + " selecionado e apagado")
+    
+}
+
 //função de onInput pra limitar os numeros inseridos por teclado.
 function algarismo() {
     //buscar as notas inseridas pelos inputs do html
@@ -14,17 +20,17 @@ function algarismo() {
 
     if (bimestre2 > 10) {
         document.getElementById("nota02").value = 10
-        console.log(bimestre1 + " convertido para a nota máxima (nota 10)")
+        console.log(bimestre2 + " convertido para a nota máxima (nota 10)")
     }
 
     if (bimestre3 > 10) {
         document.getElementById("nota03").value = 10
-        console.log(bimestre1 + " convertido para a nota máxima (nota 10)")
+        console.log(bimestre3 + " convertido para a nota máxima (nota 10)")
     }
 
     if (bimestre4 > 10) {
         document.getElementById("nota04").value = 10
-        console.log(bimestre1 + " convertido para a nota máxima (nota 10)")
+        console.log(bimestre4 + " convertido para a nota máxima (nota 10)")
     }
 }
 

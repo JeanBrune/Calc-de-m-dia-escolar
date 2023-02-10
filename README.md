@@ -1,2 +1,4 @@
 # Calc-de-media-escolar
-Projeto criado como primeiro exercício para treinar html, css e js.
+Projeto criado como primeiro exercício para treinar desenvolvimento web.
+Tecnologias usadas: 
+HTML, CSS e JavaScript.
